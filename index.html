@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>text_To_Speech_Convertor</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body >
+
+        <h1>Wel-Come Text To Speech Convertor</h1>
+
+       <h4> Enter Your Text :  </h4>
+
+        <textarea name="" id="text-input" cols="30" rows="10"></textarea>
+
+            <br><br>
+
+            
+            
+            <label for="voice-select">Voice :</label>
+            <select name="" id="voice-select">
+
+                <option value="">Voice no 1 </option>
+                <option value="">Voice no 2</option>
+                <option value="">Voice no 3</option>
+                <option value="">voice no 4</option>
+
+            </select>
+
+            <br><br>
+
+            <div class="rangecontainer">
+
+                <label>Pitch :</label>
+
+                <input type="range" min="0" max="2" step="0.2" id="pitch-range" >
+
+
+            </div>
+
+
+            <div class="rangecontainer">
+
+                <label for="">Range :</label>
+
+                <input type="range" min="0" max="2" step="0.2" id="rate-range">
+
+            </div>
+
+            <br><br>
+
+            <button id="speak-button">Speak</button>
+
+</body>
+
+            <script src="script.js"></script>
+</html> 
